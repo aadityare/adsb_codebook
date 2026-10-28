@@ -1,4 +1,4 @@
-# Codificaiton Analysis
+# Codification Analysis
 
 Turns our coding workbook for research into inter-coder agreement statistics, the hypothesis tests, and figures to include in the research paper.
 
