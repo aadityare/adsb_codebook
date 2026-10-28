@@ -1,0 +1,6 @@
+data/*.xlsx
+!data/coding-anonymous.xlsx
+output/coding-anonymous.xlsx
+__pycache__/
+.venv/
+~$*

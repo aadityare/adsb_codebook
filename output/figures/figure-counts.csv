@@ -1,0 +1,121 @@
+set,function,state,n,papers
+cryptographic,Credential issuer,spec,16,P01 P15 P21 P24 P25 P26 P32 P35 P38 P40 P45 P69 P74 P75 P76 P77
+cryptographic,Credential issuer,unspec,6,P16 P23 P28 P33 P39 P70
+cryptographic,Credential issuer,tie,2,P27 P44
+cryptographic,Credential issuer,silent,1,P43
+cryptographic,Credential distribution,spec,16,P01 P15 P21 P24 P25 P28 P32 P35 P38 P44 P69 P70 P74 P75 P76 P77
+cryptographic,Credential distribution,unspec,5,P16 P26 P33 P39 P45
+cryptographic,Credential distribution,tie,3,P23 P27 P40
+cryptographic,Credential distribution,silent,1,P43
+cryptographic,Acceptance by foreign receivers,spec,6,P23 P25 P32 P69 P75 P77
+cryptographic,Acceptance by foreign receivers,unspec,0,
+cryptographic,Acceptance by foreign receivers,tie,0,
+cryptographic,Acceptance by foreign receivers,silent,19,P01 P15 P16 P21 P24 P26 P27 P28 P33 P35 P38 P39 P40 P43 P44 P45 P70 P74 P76
+cryptographic,Revocation (ground or airborne),spec,4,P15 P23 P38 P75
+cryptographic,Revocation (ground or airborne),unspec,0,
+cryptographic,Revocation (ground or airborne),tie,0,
+cryptographic,Revocation (ground or airborne),silent,21,P01 P16 P21 P24 P25 P26 P27 P28 P32 P33 P35 P39 P40 P43 P44 P45 P69 P70 P74 P76 P77
+cryptographic,Common time source,spec,5,P01 P23 P35 P69 P75
+cryptographic,Common time source,unspec,6,P21 P24 P25 P27 P40 P44
+cryptographic,Common time source,tie,0,
+cryptographic,Common time source,silent,14,P15 P16 P26 P28 P32 P33 P38 P39 P43 P45 P70 P74 P76 P77
+cryptographic,Standards change (MOPS/SARP),spec,10,P21 P25 P27 P35 P38 P40 P70 P74 P75 P77
+cryptographic,Standards change (MOPS/SARP),unspec,0,
+cryptographic,Standards change (MOPS/SARP),tie,3,P24 P43 P44
+cryptographic,Standards change (MOPS/SARP),silent,12,P01 P15 P16 P23 P26 P28 P32 P33 P39 P45 P69 P76
+cryptographic,Third-party receiver network,spec,5,P23 P27 P35 P38 P74
+cryptographic,Third-party receiver network,unspec,0,
+cryptographic,Third-party receiver network,tie,0,
+cryptographic,Third-party receiver network,silent,20,P01 P15 P16 P21 P24 P25 P26 P28 P32 P33 P39 P40 P43 P44 P45 P69 P70 P75 P76 P77
+cryptographic,Cross-border raw data,spec,1,P35
+cryptographic,Cross-border raw data,unspec,0,
+cryptographic,Cross-border raw data,tie,0,
+cryptographic,Cross-border raw data,silent,24,P01 P15 P16 P21 P23 P24 P25 P26 P27 P28 P32 P33 P38 P39 P40 P43 P44 P45 P69 P70 P74 P75 P76 P77
+cryptographic,Reference-data custody,spec,3,P69 P74 P76
+cryptographic,Reference-data custody,unspec,0,
+cryptographic,Reference-data custody,tie,0,
+cryptographic,Reference-data custody,silent,22,P01 P15 P16 P21 P23 P24 P25 P26 P27 P28 P32 P33 P35 P38 P39 P40 P43 P44 P45 P70 P75 P77
+cryptographic,Cross-border personal data,spec,2,P35 P69
+cryptographic,Cross-border personal data,unspec,0,
+cryptographic,Cross-border personal data,tie,0,
+cryptographic,Cross-border personal data,silent,23,P01 P15 P16 P21 P23 P24 P25 P26 P27 P28 P32 P33 P38 P39 P40 P43 P44 P45 P70 P74 P75 P76 P77
+cryptographic,ATC action on a flag,spec,12,P01 P23 P24 P27 P28 P32 P35 P69 P70 P74 P75 P77
+cryptographic,ATC action on a flag,unspec,2,P25 P26
+cryptographic,ATC action on a flag,tie,2,P38 P45
+cryptographic,ATC action on a flag,silent,9,P15 P16 P21 P33 P39 P40 P43 P44 P76
+cryptographic,Wrongly rejected aircraft,spec,11,P01 P23 P24 P27 P32 P35 P69 P70 P74 P75 P77
+cryptographic,Wrongly rejected aircraft,unspec,3,P25 P26 P38
+cryptographic,Wrongly rejected aircraft,tie,1,P45
+cryptographic,Wrongly rejected aircraft,silent,10,P15 P16 P21 P28 P33 P39 P40 P43 P44 P76
+cryptographic,Aircraft revoked in flight,spec,0,
+cryptographic,Aircraft revoked in flight,unspec,1,P23
+cryptographic,Aircraft revoked in flight,tie,1,P38
+cryptographic,Aircraft revoked in flight,silent,23,P01 P15 P16 P21 P24 P25 P26 P27 P28 P32 P33 P35 P39 P40 P43 P44 P45 P69 P70 P74 P75 P76 P77
+cryptographic,Enforcement channel,spec,0,
+cryptographic,Enforcement channel,unspec,0,
+cryptographic,Enforcement channel,tie,0,
+cryptographic,Enforcement channel,silent,25,P01 P15 P16 P21 P23 P24 P25 P26 P27 P28 P32 P33 P35 P38 P39 P40 P43 P44 P45 P69 P70 P74 P75 P76 P77
+cryptographic,Liability assigned,spec,0,
+cryptographic,Liability assigned,unspec,0,
+cryptographic,Liability assigned,tie,0,
+cryptographic,Liability assigned,silent,25,P01 P15 P16 P21 P23 P24 P25 P26 P27 P28 P32 P33 P35 P38 P39 P40 P43 P44 P45 P69 P70 P74 P75 P76 P77
+detection,Credential issuer,spec,1,P71
+detection,Credential issuer,unspec,1,P30
+detection,Credential issuer,tie,0,
+detection,Credential issuer,silent,21,P02 P03 P05 P06 P07 P08 P09 P13 P29 P36 P37 P41 P42 P46 P47 P48 P49 P54 P62 P63 P64
+detection,Credential distribution,spec,1,P71
+detection,Credential distribution,unspec,1,P30
+detection,Credential distribution,tie,0,
+detection,Credential distribution,silent,21,P02 P03 P05 P06 P07 P08 P09 P13 P29 P36 P37 P41 P42 P46 P47 P48 P49 P54 P62 P63 P64
+detection,Acceptance by foreign receivers,spec,0,
+detection,Acceptance by foreign receivers,unspec,0,
+detection,Acceptance by foreign receivers,tie,0,
+detection,Acceptance by foreign receivers,silent,23,P02 P03 P05 P06 P07 P08 P09 P13 P29 P30 P36 P37 P41 P42 P46 P47 P48 P49 P54 P62 P63 P64 P71
+detection,Revocation (ground or airborne),spec,0,
+detection,Revocation (ground or airborne),unspec,0,
+detection,Revocation (ground or airborne),tie,0,
+detection,Revocation (ground or airborne),silent,23,P02 P03 P05 P06 P07 P08 P09 P13 P29 P30 P36 P37 P41 P42 P46 P47 P48 P49 P54 P62 P63 P64 P71
+detection,Common time source,spec,3,P13 P30 P37
+detection,Common time source,unspec,2,P08 P41
+detection,Common time source,tie,0,
+detection,Common time source,silent,18,P02 P03 P05 P06 P07 P09 P29 P36 P42 P46 P47 P48 P49 P54 P62 P63 P64 P71
+detection,Standards change (MOPS/SARP),spec,2,P13 P29
+detection,Standards change (MOPS/SARP),unspec,0,
+detection,Standards change (MOPS/SARP),tie,1,P30
+detection,Standards change (MOPS/SARP),silent,20,P02 P03 P05 P06 P07 P08 P09 P36 P37 P41 P42 P46 P47 P48 P49 P54 P62 P63 P64 P71
+detection,Third-party receiver network,spec,9,P05 P06 P30 P37 P47 P54 P62 P63 P64
+detection,Third-party receiver network,unspec,0,
+detection,Third-party receiver network,tie,0,
+detection,Third-party receiver network,silent,14,P02 P03 P07 P08 P09 P13 P29 P36 P41 P42 P46 P48 P49 P71
+detection,Cross-border raw data,spec,1,P37
+detection,Cross-border raw data,unspec,0,
+detection,Cross-border raw data,tie,0,
+detection,Cross-border raw data,silent,22,P02 P03 P05 P06 P07 P08 P09 P13 P29 P30 P36 P41 P42 P46 P47 P48 P49 P54 P62 P63 P64 P71
+detection,Reference-data custody,spec,14,P05 P06 P07 P08 P29 P36 P46 P48 P49 P54 P62 P63 P64 P71
+detection,Reference-data custody,unspec,0,
+detection,Reference-data custody,tie,0,
+detection,Reference-data custody,silent,9,P02 P03 P09 P13 P30 P37 P41 P42 P47
+detection,Cross-border personal data,spec,1,P37
+detection,Cross-border personal data,unspec,0,
+detection,Cross-border personal data,tie,0,
+detection,Cross-border personal data,silent,22,P02 P03 P05 P06 P07 P08 P09 P13 P29 P30 P36 P41 P42 P46 P47 P48 P49 P54 P62 P63 P64 P71
+detection,ATC action on a flag,spec,10,P06 P07 P13 P30 P42 P46 P48 P49 P63 P71
+detection,ATC action on a flag,unspec,9,P02 P03 P05 P29 P37 P41 P47 P54 P64
+detection,ATC action on a flag,tie,0,
+detection,ATC action on a flag,silent,4,P08 P09 P36 P62
+detection,Wrongly rejected aircraft,spec,8,P03 P13 P29 P30 P42 P46 P49 P54
+detection,Wrongly rejected aircraft,unspec,3,P41 P48 P64
+detection,Wrongly rejected aircraft,tie,5,P05 P06 P07 P37 P47
+detection,Wrongly rejected aircraft,silent,7,P02 P08 P09 P36 P62 P63 P71
+detection,Aircraft revoked in flight,spec,0,
+detection,Aircraft revoked in flight,unspec,0,
+detection,Aircraft revoked in flight,tie,0,
+detection,Aircraft revoked in flight,silent,23,P02 P03 P05 P06 P07 P08 P09 P13 P29 P30 P36 P37 P41 P42 P46 P47 P48 P49 P54 P62 P63 P64 P71
+detection,Enforcement channel,spec,1,P41
+detection,Enforcement channel,unspec,0,
+detection,Enforcement channel,tie,0,
+detection,Enforcement channel,silent,22,P02 P03 P05 P06 P07 P08 P09 P13 P29 P30 P36 P37 P42 P46 P47 P48 P49 P54 P62 P63 P64 P71
+detection,Liability assigned,spec,0,
+detection,Liability assigned,unspec,0,
+detection,Liability assigned,tie,0,
+detection,Liability assigned,silent,23,P02 P03 P05 P06 P07 P08 P09 P13 P29 P30 P36 P37 P41 P42 P46 P47 P48 P49 P54 P62 P63 P64 P71

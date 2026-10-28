@@ -1,0 +1,37 @@
+papers coded by all coders                                 48  P01 P02 P03 P05 P06 P07 P08 P09 P13 P15 P16 P21 P23 P24 P25 P26 P27 P28 P29 P30 P32 P33 P35 P36 P37 P38 P39 P40 P41 P42 P43 P44 P45 P46 P47 P48 P49 P54 P62 P63 P64 P69 P70 P71 P74 P75 P76 P77
+cryptographic                                              25  P01 P15 P16 P21 P23 P24 P25 P26 P27 P28 P32 P33 P35 P38 P39 P40 P43 P44 P45 P69 P70 P74 P75 P76 P77
+detection                                                  23  P02 P03 P05 P06 P07 P08 P09 P13 P29 P30 P36 P37 P41 P42 P46 P47 P48 P49 P54 P62 P63 P64 P71
+three-way ties: 24 of 960 cells
+  P05 What happens to a legitimate aircraft th: ['Degrade', 'Unspecified', None]
+  P06 What happens to a legitimate aircraft th: ['Fail-Closed', 'Unspecified', None]
+  P07 What happens to a legitimate aircraft th: ['Degrade', 'Unspecified', 'NONE']
+  P23 Credential Distribution: ['Out of band', 'Pre-loaded', 'Unspecified']
+  P24 Standards Change (SARP/MOPS): ['NONE', 'Both', 'MOPS']
+  P27 Root of Trust / Credential Issuance: ['Unspecified', 'ICAO', None]
+  P27 Credential Distribution: ['Datalink', 'Pre-loaded', None]
+  P30 Standards Change (SARP/MOPS): ['NONE', 'Both', 'MOPS']
+  P35 Deploy Point: ['Aircraft', 'Third Party', 'Aircraft, Third Party']
+  P37 What happens to a legitimate aircraft th: ['Degrade', 'Unspecified', 'NONE']
+  P38 Operational Procedure (What ATC does wit: ['Revert to radar', 'Unspecified', 'NONE']
+  P38 What happens to an aircraft whose creden: ['NONE', 'Unspecified', None]
+  P40 Credential Distribution: ['Pre-loaded', 'Unspecified', 'Pre-loaded, Datalink']
+  P40 Personal-data elements the scheme moves : ['Registration Mark', 'Flight Number', 'Registration Mark, ICAO Address, Flight Number']
+  P43 Standards Change (SARP/MOPS): ['Both', 'NONE', 'MOPS']
+  P44 Root of Trust / Credential Issuance: ['ICAO', 'State of Registry', None]
+  P44 Standards Change (SARP/MOPS): ['MOPS', 'Both', 'NONE']
+  P44 Personal-data elements the scheme moves : ['Registration Mark', 'Track', 'Registration Mark, Operator Identity, ICAO Address, Flight Number']
+  P45 Operational Procedure (What ATC does wit: ['Drop target', 'Unspecified', 'NONE']
+  P45 What happens to a legitimate aircraft th: ['Fail-Closed', 'Unspecified', None]
+  P47 What happens to a legitimate aircraft th: ['Degrade', 'Unspecified', None]
+  P63 Personal-data elements the scheme moves : ['NONE', 'Track', 'ICAO Address']
+  P64 Personal-data elements the scheme moves : ['NONE', 'Track', 'ICAO Address']
+  P75 Installation Base: ['Aircraft Software', 'NONE', 'New message format on aircraft and receivers']
+
+H1 support (holds if > 12.5)                               24  P01 P15 P16 P21 P23 P24 P25 P26 P27 P28 P32 P33 P35 P38 P39 P40 P44 P45 P69 P70 P74 P75 P76 P77
+H2 upper bound, third-party receivers (holds if > 11.5)     9  P05 P06 P30 P37 P47 P54 P62 P63 P64
+H2 if any single coder vote counts                         10  P05 P06 P30 P37 P47 P54 P62 P63 P64 P71
+H3 N: no H1 or H2 function stated                          14  P02 P03 P07 P08 P09 P13 P29 P36 P41 P42 P43 P46 P48 P49
+H3 detection schemes in N with no standards change         11  P02 P03 P07 P08 P09 P36 P41 P42 P46 P48 P49
+  (also set aside by hand in the paper: P02 jamming, P09 ownship GNSS)
+
+robustness, raw vs merged codes: identical
